@@ -21,8 +21,9 @@ SMODS.Joker{
         text = {
             "{X:mult,C:white} X#1# {} Mult",
             "Beating a {C:attention}Boss Blind{} by triple",
-            "the required chips creates",
-            "a {C:blue}Negative{} copy of Power Creep"
+            "the required chips creates a",
+            "{C:blue}Negative{} copy of Power Creep",
+            "{C:red}One hand per round{}"
         }
     },
     atlas = 'powercreep', -- atlas' key
@@ -43,6 +44,11 @@ SMODS.Joker{
         return {vars = {center.ability.extra.Xmult}}
     end,
     calculate = function(self, card, context)
+        if context.setting_blind then
+            G.E_MANAGER:add_event(Event({func = function()
+                ease_hands_played(-G.GAME.current_round.discards_left, nil, true)
+            return true end }))
+        end
         if context.joker_main then
             return {
                 Xmult =1.5

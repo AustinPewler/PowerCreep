@@ -8,4 +8,4 @@ Thanks to u/Funk-Repair for the idea + art!
 
 Version 1.0.0 -
 
-Power Creep Launch
+Power Creep Joker launch

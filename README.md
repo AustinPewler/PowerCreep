@@ -4,6 +4,8 @@ Adds the singular joker, Power Creep: x1.5 Mult, Beating a Boss Blind by triple 
 
 Thanks to u/Funk-Repair for the idea + art!
 
+Unbalanced Version: https://github.com/Lpazos1/PowerCreep/tree/main
+Balanced Version: https://github.com/Lpazos1/PowerCreepBalanced/tree/main
 ------------------------------------
 
 Version 1.0.0 -

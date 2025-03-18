@@ -9,6 +9,7 @@ Balanced Version: https://github.com/Lpazos1/PowerCreepBalanced/tree/main
 Nexus: https://www.nexusmods.com/balatro/mods/323?tab=description
 
 Thanks to u/Funk-Repair for the idea + art!
+
 ------------------------------------
 
 Version 1.0.0 -
